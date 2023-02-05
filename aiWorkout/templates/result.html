@@ -2,10 +2,11 @@
 
 {% block content %}
     <div class="container">
-
-        {%for i in range(0, length)%}
-        <li>Ask: {{asks[i]}}</li>
-        <li>Result: {{results[i]}}</li>
-        {% endfor %}
+        <ul class="results-ul list-group">
+            {%for i in range(0, length)%}
+            <li class="list-group-item">Your Question: {{asks[i]}}</li>
+            <li class="list-group-item">The Answer: {{results[i]}}</li>
+            {% endfor %}
+        </ul>
     </div>
 {% endblock %}

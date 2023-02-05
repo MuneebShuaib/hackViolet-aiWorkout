@@ -2,7 +2,7 @@
     font-size: 20px;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    list-style-type: none;
 }
 body {
     height: 100%;
@@ -38,6 +38,8 @@ li{
 
 }
 .container{
+    height: auto;
+    width: auto;
     overflow: scroll;
 }
 .my-nav-links{
@@ -45,4 +47,7 @@ li{
     flex-direction: row;
     justify-content: center;
     justify-items: center;
+}
+.results-ul{
+    overflow: scroll;
 }
