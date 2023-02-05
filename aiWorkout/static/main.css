@@ -22,11 +22,13 @@ li{
 }
 .my-btn{
     background-color: #9a5131;
+    margin-top: 1rem;
 }
 .my-container{
     display: flex;
     flex-direction: row;
-
+    justify-items: center;
+    justify-content: space-between;
 }
 .my-form{
     margin: auto;
@@ -37,4 +39,10 @@ li{
 }
 .container{
     overflow: scroll;
+}
+.my-nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
 }
