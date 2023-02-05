@@ -4,7 +4,7 @@ app = Flask(__name__)
 import openai
 
 # Initialize the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Define a list of keywords related to workouts
 allowed_keywords = ["fitness","exercise","training","workout","lifting","weightlifting","weights","cardio","aerobic","anaerobic","strength","muscle","endurance","gym","training","yoga","pilates","run","jog","walk","swim","cycle","dumbbell","barbell","kettlebell","bodyweight","HIIT","crossfit","plyometrics","calisthenics","arms","biceps","triceps","forearms","shoulders","chest","back","lats","abs","core","stomach","legs","quads","hamstrings","calves","glutes","butt","hips"]
@@ -27,7 +27,7 @@ def askQuestion(input):
     
     # Use the OpenAI API to generate a response
     response = openai.Completion.create(
-        engine="text-davinci-002",
+        engine="text-davinci-003",
         prompt=f"{user_input}\n",
         max_tokens=1024,
         n=1,
