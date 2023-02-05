@@ -63,7 +63,7 @@ def result():
 
     return render_template('result.html', length = len(asks), results = results, asks = asks)
 
-
+#perhaps not needed
 if __name__ == "__main__":
     app.debug = True
     app.run()
