@@ -1,0 +1,40 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.dribbble.com/users/1162077/screenshots/4672791/gym.gif);
+    background-size: 80%;
+
+}
+.mynav{
+    height: 50px;
+}
+nav{
+    background-color: #ea6c36;
+}
+li{
+    padding: 1rem;
+}
+.my-btn{
+    background-color: #9a5131;
+}
+.my-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.my-form{
+    margin: auto;
+    width: 50%;
+}
+.input-btn{
+
+}
+.container{
+    overflow: scroll;
+}
