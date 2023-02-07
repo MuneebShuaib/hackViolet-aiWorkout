@@ -4,7 +4,7 @@ app = Flask(__name__)
 import openai
 
 # Initialize the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Define a list of keywords related to workouts
 allowed_keywords = ["fitness","exercise","training","workout","lifting","weightlifting","weights","cardio","aerobic","anaerobic","strength","muscle","endurance","gym","training","yoga","pilates","run","jog","walk","swim","cycle","dumbbell","barbell","kettlebell","bodyweight","HIIT","crossfit","plyometrics","calisthenics","arms","biceps","triceps","forearms","shoulders","chest","back","lats","abs","core","stomach","legs","quads","hamstrings","calves","glutes","butt","hips"]
